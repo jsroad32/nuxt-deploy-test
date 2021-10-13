@@ -1,0 +1,13 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - npm run build
+artifacts:
+  type: zip
+  files:
+    - '**/*'
+cache:
+  paths:
+    - 'node_modules/**/*'

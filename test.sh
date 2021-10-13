@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 
-npm -v
+cd docker-compose
+docker-compose up -d

@@ -5,6 +5,6 @@ files:
     destination: /home/ec2-user/build/
 #permissions:
 #  - owner: ec2-user
-#hooks:
-#  AfterInstall:
-#    - location: test.sh
+hooks:
+  AfterInstall:
+    - location: test.sh

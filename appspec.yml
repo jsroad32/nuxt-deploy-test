@@ -3,8 +3,8 @@ os: linux
 files:
   - source: /
     destination: /home/ec2-user/build/
-permissions:
-  - owner: ec2-user
+#permissions:
+#  - owner: ec2-user
 #hooks:
 #  AfterInstall:
 #    - location: test.sh

@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 # docker compose 실행
+sudo systemctl start docker
 cd /home/ec2-user/build/docker-compose
 docker-compose up -d
 

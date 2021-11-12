@@ -3,6 +3,6 @@ os: linux
 files:
   - source: /
     destination: /home/ec2-user/build/
-hooks:
-  AfterInstall:
-    - location: test.sh
+#hooks:
+#  AfterInstall:
+#    - location: test.sh

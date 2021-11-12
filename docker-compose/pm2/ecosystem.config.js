@@ -3,9 +3,14 @@ module.exports = {
     {
       name: 'frontend',
       exec_mode: 'cluster',
-      instances: '1', // Or a number of instances
+      instances: 'max', // Or a number of instances
       script: '/app/node_modules/nuxt/bin/nuxt.js',
       args: 'start',
+
+      // wait_ready: true, // ready 신호 대기
+      // listen_timeout: 50000, // ready 이벤트 대기 시간(ms)
+      // kill_timeout: 5000 //
+
       // script: 'npm',
       // args: 'run start',
       // env: {

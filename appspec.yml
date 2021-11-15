@@ -3,8 +3,8 @@ os: linux
 files:
   - source: /
     destination: /home/app/build
-#hooks:
-#  BeforeInstall:
-#    - location: ./sh/move_build.sh
-#  AfterInstall:
-#    - location: ./sh/pm2_reload.sh
+hooks:
+  BeforeInstall:
+    - location: ./sh/move_build.sh
+  AfterInstall:
+    - location: ./sh/pm2_reload.sh

@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/app/build
+    destination: /home/ubuntu/build
 hooks:
-  BeforeInstall:
-    - location: ./sh/move_build.sh
+#  BeforeInstall:
+#    - location: ./sh/move_build.sh
   AfterInstall:
     - location: ./sh/pm2_reload.sh

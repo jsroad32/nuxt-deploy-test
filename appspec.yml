@@ -2,7 +2,9 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ec2-user/build/
+    destination: /home/app/build
 hooks:
+  BeforeInstall:
+    - location: ./sh/move_build.sh
   AfterInstall:
-    - location: ./docker-compose/pm2/sh/reload.sh
+    - location: ./sh/pm2_reload.sh

@@ -3,6 +3,7 @@
 # docker compose 실행
 sudo systemctl start docker
 cd /home/ubuntu/build/docker-compose
+cp .env.example .env
 docker-compose up -d
 
 # build

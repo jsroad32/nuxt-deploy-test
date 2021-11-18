@@ -2,7 +2,7 @@
 
 # docker compose 실행
 sudo systemctl start docker
-cd /home/app/build/docker-compose
+cd /home/ubuntu/build/docker-compose
 docker-compose up -d
 
 # build

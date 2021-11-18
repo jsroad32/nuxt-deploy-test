@@ -7,4 +7,5 @@ hooks:
 #  BeforeInstall:
 #    - location: ./sh/move_build.sh
   AfterInstall:
-    - location: ./sh/pm2_reload.sh
+#    - location: ./sh/pm2_reload.sh
+    - location: ./sh/pm2_init.sh

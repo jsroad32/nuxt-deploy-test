@@ -1,4 +1,4 @@
-FROM arm64v8/node:14-alpine
+FROM arm64v8/node:14
 
 # 외부 접근 허용
 ENV HOST 0.0.0.0

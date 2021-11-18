@@ -9,7 +9,7 @@ phases:
     commands:
       - npm run build
 artifacts:
-  type: zip
+#  type: zip
   files:
     - '**/*'
 cache:

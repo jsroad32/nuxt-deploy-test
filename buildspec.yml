@@ -1,20 +1,13 @@
 version: 0.2
 
 phases:
-  install:
-    runtime-versions:
-      nodejs: 12
+  pre_build:
     commands:
       - npm install
+#      - npm i --arch=arm64 --target_platform=linux --production
+  build:
+    commands:
       - npm run build
-    run-as: root
-#  pre_build:
-#    commands:
-#      - npm install
-##      - npm i --arch=arm64 --target_platform=linux --production
-#  build:
-#    commands:
-#      - npm run build
 artifacts:
 #  type: zip
   files:

@@ -1,4 +1,6 @@
 <!-- Please remove this file from your project -->
 <template>
-  <div>hello</div>
+  <div>
+    hello
+  </div>
 </template>

@@ -1,6 +1,6 @@
 <!-- Please remove this file from your project -->
 <template>
   <div>
-    hello5
+    hello6
   </div>
 </template>
